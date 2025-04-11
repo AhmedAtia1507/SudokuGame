@@ -34,6 +34,7 @@ std::vector<std::vector<char>> FileManager::loadBoard(const std::string fileName
     for(auto& row : board) {
         row.shrink_to_fit();
     }
+	loadedFile.close();
     return board;
 }
 void FileManager::saveBoard(const std::vector<std::vector<char>>& board, const std::string fileName) {
@@ -48,6 +49,7 @@ void FileManager::saveBoard(const std::vector<std::vector<char>>& board, const s
         }
         savedFile << std::endl;
     }
+	savedFile.close();
 }
 
 std::vector<std::string> FileManager::getSavedGames() {
