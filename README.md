@@ -12,7 +12,6 @@ A comprehensive Sudoku puzzle game implementation in C++ with both console and g
 - [Game Features](#game-features)
 - [Technical Details](#technical-details)
 - [Build Options](#build-options)
-- [Contributing](#contributing)
 
 ## ✨ Features
 
@@ -204,20 +203,6 @@ The Qt application automatically detects Qt5 or Qt6 and configures accordingly:
 - Auto-generates MOC files for Qt objects
 - Includes all necessary Qt Widgets components
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow C++17 standards
-- Maintain consistent code formatting
-- Add comments for complex algorithms
-- Test both console and GUI applications
-- Ensure cross-platform compatibility
 
 ## 📝 License
 
